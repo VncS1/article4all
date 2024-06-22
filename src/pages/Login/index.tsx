@@ -11,6 +11,10 @@ export function Login(){
         navigate('/home')
     }
 
+    function handleGoToRegister(){
+        navigate('/cadastro')
+    }
+
 
     return (
         <LoginContainer>
@@ -28,14 +32,14 @@ export function Login(){
                         </a>
                     </div>
                 </form>
-                <div className="register-button">
-                   <a href="/cadastro">
+                <form className="register-button" onSubmit={handleGoToRegister}>
+                   <button>
                         <ArrowRightStyled 
                             size={32}
                         />
-                        <p>Não tenho cadastro</p>
-                   </a>
-                </div>
+                        <span>Não tenho cadastro</span>
+                   </button>
+                </form>
             </LoginComponent>
             <img src={bgImg} className="background" />
         </LoginContainer>

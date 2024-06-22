@@ -109,15 +109,22 @@ export const LoginComponent = styled.section`
         margin-top: 1rem;
         color: ${(props) => props.theme['black-gray']};
         font-weight: bold;
+        cursor: pointer;
 
-        a {
+        button {
             display: flex;
             align-items: center;
+            border: 0;
+            background: transparent;
             
+            cursor: pointer;
             p {
                 margin-left: .5rem;
                 font-weight: 500;
                 font-size: 1.25rem;
+
+                ;
+                font-weight: bold;
             }
         }
     }

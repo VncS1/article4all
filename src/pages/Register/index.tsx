@@ -4,7 +4,6 @@ import { ArrowLeftStyled, FormContainer, InfoContainer, RegisterContainer, TextC
 
 
 export function Register(){
-
     const navigate = useNavigate();
 
     function handleSubmitRegister(){
@@ -31,7 +30,7 @@ export function Register(){
                     <input type="text" placeholder="Senha" />
                     <select>
                         <option value="">Selecione...</option>
-                        
+
                         <option value="Inovação e Tecnologia">
                             Inovação e Tecnologia
                         </option>
