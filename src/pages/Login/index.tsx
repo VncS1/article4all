@@ -27,7 +27,7 @@ export function Login(){
                     <input type="password" placeholder="Senha" />
                     <div className="links-container">
                         <button type="submit" className="login-button">Entrar</button>
-                        <a className="research-button" href="https://encurtador.com.br/5BFJ2">
+                        <a className="research-button" href="https://encurtador.com.br/5BFJ2" target="_blank">
                             Sua opinião importa!
                         </a>
                     </div>
